@@ -25,7 +25,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Blog preview card](https://github.com/brenda-magg/blog-card)
+- Solution URL: [Blog preview card](https://brenda-magg.github.io/blog-card/)
 
 ## My process
 
