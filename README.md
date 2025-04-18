@@ -25,7 +25,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Solution URL: [Blog preview card](https://github.com/brenda-magg/blog-card)
 
 ## My process
 
