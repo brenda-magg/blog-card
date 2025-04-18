@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&display=swap');
+
+:root {
+    --Yellow: hsl(47, 88%, 63%);
+    --White: hsl(0, 0%, 100%);
+    --Gray500: hsl(0, 0%, 42%);
+    --Gray950: hsl(0, 0%, 7%);
+    --Font: 'Figtree', sans-serif;
+}
+
+*, *::before, *::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+}
+
+h1 {
+    line-height: 1.1;
+}
+
+body {
+    font-family: var(--Font);
+    font-size: 1em;
+    font-weight: 600;
+    color: var(--Gray500);
+    background: var(--Yellow);
+}
+
+.wrapper {
+    display: flex;
+    justify-content: center;
+    margin-top: 5em;
+}
+
+.category {
+    display: inline-block;
+    color: var(--Gray950);
+    font-weight: 900;
+    font-size: .85em;
+    padding: .5rem .8rem;
+    border-radius: .2rem;
+    background: var(--Yellow);
+}
+
+.card-container {
+    background: var(--White);
+    max-width: 23em;
+    padding: 1.3em;
+    margin: 0 1.3em;
+    border-radius: 1em;
+    box-shadow: 9px 9px 0 var(--Gray950);
+    transition: box-shadow .3s ease;
+}
+
+.card-container:hover {
+    box-shadow: 12px 12px 0 var(--Gray950);
+    transition: 0.4s;
+}
+
+.card-container > * + * {
+    margin: .70em;
+}
+
+.date {
+    color: var(--Gray950);
+    font-weight: 500;
+    font-size: .85em;
+}
+
+.img-banner {
+    border-radius: .8em;
+}
+
+.title {
+    color: var(--Gray950);
+    font-weight: 800;
+    font-size: 1.40em;
+    cursor: pointer;
+    transition: color .3s ease;
+}
+
+.title:hover {
+    color: var(--Yellow);
+}
+
+.about {
+    font-weight: 500;
+    font-size: .85em;
+}
+
+.author-name {
+    color: var(--Gray950);
+    font-weight: 800;
+    font-size: .85em;
+}
+
+.author-data {
+    display: flex;
+    align-items: center;
+    gap: 1em;
+}
+
+.author-img {
+    width: 3em;
+}
+
+footer {
+    text-align: center;
+    margin-top: 2em;
+}
